@@ -118,10 +118,10 @@ const Sessions = () => {
     <div className="min-h-screen p-4 md:p-8  ">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-2xl md:text-3xl font-bold text-[#121714] mb-2  mt-[30px]">
+        <h1 className="text-2xl md:text-3xl font-bold text-[#121714] mb-2  mt-[30px] pl-[20px]">
           Therapy Sessions
         </h1>
-        <p className="text-sm md:text-base text-[#618A75]">
+        <p className="text-sm md:text-base text-[#618A75]  pl-[20px]">
           Manage your therapy sessions and schedule
         </p>
       </div>
@@ -155,11 +155,12 @@ const Sessions = () => {
       </div>
 
       {/* Calendar Schedule */}
-      <div className="mb-8">
+      <div className="mb-8 ">
         <h2 className="text-lg md:text-xl font-semibold text-[#121714] mb-4">
           Schedule
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6  ">
           {/* Calendar */}
           <div className="bg-white p-4 md:p-6 rounded-lg shadow">
             <div className="flex justify-between items-center mb-4">
@@ -190,7 +191,7 @@ const Sessions = () => {
             </div>
 
             {/* Calendar Days */}
-            <div className="grid grid-cols-7 gap-2">
+            <div className="grid grid-cols-7 gap-2 ">
               {renderCalendar(currentMonth)}
             </div>
           </div>

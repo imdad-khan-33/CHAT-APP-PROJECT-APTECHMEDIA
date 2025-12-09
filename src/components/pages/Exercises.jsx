@@ -44,11 +44,11 @@ const ExercisesPage = () => {
     <div className="min-h-screen">
       {/* Header */}
       <div className="px-4 sm:px-6 py-4 mt-6">
-        <h1 className="text-xl sm:text-2xl font-bold text-gray-800">
+        <h1 className="text-xl sm:text-2xl font-bold text-gray-800 mt-[30px] pl-[20px]">
           Exercises
         </h1>
 
-        <p className="text-sm sm:text-base text-gray-600 mt-1">
+        <p className="text-sm sm:text-base text-gray-600 mt-1 pl-[20px]">
           Mindfulness techniques designed to support your mental wellness
           journey
         </p>

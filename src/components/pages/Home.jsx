@@ -30,6 +30,8 @@ const HomePage = () => {
         <QuickActions />
         <SavedItems />
         <DailyTips />
+
+        {/* <UpcomingSessions /> */}
       </div>
     </div>
   );
