@@ -25,7 +25,7 @@ const Sidebar = () => {
         </button>
       </div>
       <div
-        className={`w-[300px] h-screen border-r fixed left-0 top-0 overflow-y-auto bg-white z-10 transition-transform transform ${
+        className={`w-[300px] h-screen border-r fixed left-0 top-0 overflow-y-auto bg-[#FFFFFF] z-10 transition-transform transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } lg:translate-x-0`}
       >
